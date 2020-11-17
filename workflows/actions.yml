@@ -1,0 +1,8 @@
+name: actions
+on: [push]
+jobs:
+  build:
+    runs-on: windows-latest or windows-2019
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
